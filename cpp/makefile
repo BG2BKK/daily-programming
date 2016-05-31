@@ -1,4 +1,4 @@
-CFLAGS= -g -O3 
+CFLAGS= -g -O0 
 LIBS = -lpthread
 C_SRC = $(wildcard *.c)
 C_OBJ = $(patsubst %c, %o, $(C_SRC))
