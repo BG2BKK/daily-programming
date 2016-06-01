@@ -24,6 +24,7 @@ int main(){
 	if(errno != 0){
 		printf("error: %s\n", strerror(errno));
 	}
-    close(sfd);
+	while(1) sleep(1);
+//    close(sfd);
 }
 
