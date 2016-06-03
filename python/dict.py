@@ -55,6 +55,11 @@ def print_translations(xml, with_color, detailed):
 	queryword = get_text(original_query[0]);
 	custom_translations = get_elements(xml, "custom-translation");
 	print BOLD + UNDERLINE + queryword + NORMAL;
+        
+        phonetic = get_elements(xml, "phonetic-symbol")
+        if phonetic:
+            print BOLD + UNDERLINE + phonetic[0] + NORMAL;
+
 	translated = False;
 	
 	for cus in custom_translations:

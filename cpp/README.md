@@ -40,4 +40,11 @@ cpp daily tips
 * [heapsort.c](heapsort.c)
 	* [堆排序](https://www.slyar.com/blog/slyar-heap-sort-c.html)
 
+* [const_char_star.c](const_char_star.c)
+	* const char * string 和 char const * string是等价的，都是在.data段分配的全局变量
+	* const char * string 和 char * const string不等价，const与谁最近，那么谁就是常量
+		* 前者是指string指向的内容是常量，不可改变
+		* 后者是指指针string是常量，指针指向的内容不可变
+	* [参考链接](http://stackoverflow.com/questions/4949254/const-char-const-versus-const-char)
+
 [Back to TOP](#cpp daily tips)
