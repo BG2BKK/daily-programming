@@ -47,4 +47,14 @@ cpp daily tips
 		* 后者是指指针string是常量，指针指向的内容不可变
 	* [参考链接](http://stackoverflow.com/questions/4949254/const-char-const-versus-const-char)
 
+* [exit_with_assembly.c](exit_with_assembly.c)
+	* [Linux通过汇编直接触发 exit 系统调用](http://www.chongh.wiki/blog/2016/04/08/linux-syscalls/)
+	* gcc exit_with_assembly.c -o exit_with_assembly.o
+	* ./exit_with_assembly.o
+	* echo $?
+	* 42
+
+* [insertionSortList.cpp](insertionSortList.cpp)
+	* [单链表的插入排序](http://www.lintcode.com/zh-cn/problem/insertion-sort-list/)实现
+
 [Back to TOP](#cpp daily tips)
