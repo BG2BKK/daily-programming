@@ -57,4 +57,9 @@ cpp daily tips
 * [insertionSortList.cpp](insertionSortList.cpp)
 	* [单链表的插入排序](http://www.lintcode.com/zh-cn/problem/insertion-sort-list/)实现
 
+* [deleteDuplicates.cpp](deleteDuplicates.cpp)
+	* 删除冗余节点
+	* 要注意的是41行和43行，在使用双重指针 \*\*p 的时候，我们在意的是将哪个对象的指针赋给它，\*p = pointer\_of\_object;
+	* 因此在41行的时候取 p = &(node-\>next)取出node的next指向的地址，而不是在43行取新node的地址，那没有意义
+
 [Back to TOP](#cpp daily tips)
