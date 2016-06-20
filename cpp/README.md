@@ -62,4 +62,12 @@ cpp daily tips
 	* 要注意的是41行和43行，在使用双重指针 \*\*p 的时候，我们在意的是将哪个对象的指针赋给它，\*p = pointer\_of\_object;
 	* 因此在41行的时候取 p = &(node-\>next)取出node的next指向的地址，而不是在43行取新node的地址，那没有意义
 
+* [const_in_cpp.cpp](const_in_cpp.cpp)
+	* [const关键字在c++的作用](https://msdn.microsoft.com/zh-cn/library/07x6b05d.aspx)
+	* const关键字在编译时定义常量
+
+* [raiiExample.c](raiiExample.c)
+	* c版的变量自动清除的宏，一种实现思路
+	* [参考链接](https://www.ibm.com/developerworks/community/blogs/karsten/entry/raii_with_c_libraries?lang=en)
+	* [参考链接2](https://github.com/psevon/exceptions-and-raii-in-c)
 [Back to TOP](#cpp daily tips)

@@ -1,0 +1,895 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"iotu",
+				"ioutil.ReadFile	ioutil-readfile"
+			],
+			[
+				"md",
+				"md5	 package ρ"
+			],
+			[
+				"md5",
+				"md5.Sum	md5-sum"
+			],
+			[
+				"ioutil",
+				"ioutil.ReadFile	ioutil-readfile"
+			],
+			[
+				"fi",
+				"FileInfo	interface ¡"
+			],
+			[
+				"update",
+				"updateDB	 ƒ"
+			],
+			[
+				"domain",
+				"Domain_NS	map[string][]string ν"
+			],
+			[
+				"doma",
+				"domain_ns	string ν"
+			],
+			[
+				"dom",
+				"Domain_list	map[string][]string ν"
+			],
+			[
+				"up",
+				"up_len	int ν"
+			],
+			[
+				"Id",
+				"Id_region	map[int]string ν"
+			],
+			[
+				"qery",
+				"Query	 ƒ"
+			],
+			[
+				"Init",
+				"Init_ipinfo	bool, error ƒ"
+			],
+			[
+				"typ",
+				"TypeOf	reflect.Type ƒ"
+			],
+			[
+				"ed",
+				"ed_ip_i	int ν"
+			],
+			[
+				"st_ip",
+				"st_ip_i	int ν"
+			],
+			[
+				"strcon",
+				"strconv.Atoi	strconv-atoi"
+			],
+			[
+				"data",
+				"DataModel	struct ʈ"
+			],
+			[
+				"str",
+				"Strings	[]string, error ƒ"
+			],
+			[
+				"func",
+				"func main	func main {...} ʂ"
+			],
+			[
+				"userinf",
+				"userinfo_module"
+			],
+			[
+				"userinfo",
+				"userinfo_module"
+			],
+			[
+				"h",
+				"HasSuffix	bool ƒ"
+			],
+			[
+				"p",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"crea",
+				"createHumburger	humburger Humburger ƒ"
+			],
+			[
+				"create",
+				"createPizza	pizza Pizza ƒ"
+			],
+			[
+				"cre",
+				"createHumburger	humburger Humburger ƒ"
+			],
+			[
+				"sing",
+				"SingleFactory	struct ʈ"
+			],
+			[
+				"fam",
+				"FamilyHumburger	struct ʈ"
+			],
+			[
+				"gre",
+				"greekFactory	*GreekPizzaFactory ν"
+			],
+			[
+				"Pizza",
+				"PizzaFactory	interface ¡"
+			],
+			[
+				"piz",
+				"pizza	Pizza ν"
+			],
+			[
+				"pizz",
+				"PizzaFactory	*CheesePizzaFactory ν"
+			],
+			[
+				"che",
+				"CheesePizzaFactory	struct ʈ"
+			],
+			[
+				"chee",
+				"CheesePizza	struct ʈ"
+			],
+			[
+				"Che",
+				"CheesePizzaFactory	struct ʈ"
+			],
+			[
+				"pizzafa",
+				"PizzaFactory	interface ¡"
+			],
+			[
+				"Piz",
+				"PizzaFactory	interface ¡"
+			],
+			[
+				"cpu",
+				"NumCPU	int ƒ"
+			],
+			[
+				"ty",
+				"TypeOf	reflect.Type ƒ"
+			],
+			[
+				"taoba",
+				"taobaoNS	[]string ν"
+			],
+			[
+				"baiu",
+				"baiduNS	[]string ν"
+			],
+			[
+				"weibo",
+				"weiboNS	[]string ν"
+			],
+			[
+				"deg",
+				"Debugf	 ƒ"
+			],
+			[
+				"hd",
+				"Header	*dns.RR_Header ƒ"
+			],
+			[
+				"typeto",
+				"TypeToString	map[uint16]string ν"
+			],
+			[
+				"log",
+				"logging	 package ρ"
+			],
+			[
+				"debu",
+				"Debugf	 ƒ"
+			],
+			[
+				"de",
+				"Debugf	 ƒ"
+			],
+			[
+				"spr",
+				"Sprintf	string ƒ"
+			],
+			[
+				"clien",
+				"ClientConfig	struct ʈ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "merge_k_sorted_lists.cpp",
+			"settings":
+			{
+				"buffer_size": 2071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "for_range_declaration.cpp",
+			"settings":
+			{
+				"buffer_size": 1255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lambda.cpp",
+			"settings":
+			{
+				"buffer_size": 1048,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++11/C++11.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					""
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Install"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Cross-Compile (Interactive)"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Golang Build/Go.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					""
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Install"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Cross-Compile (Interactive)"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/GoSublime/GoSublime.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Golang Build/Go.sublime-build",
+				"Clean"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "cool",
+		"selected_items":
+		[
+			[
+				"cool",
+				"CoolFormat: Formatter Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"im",
+				"GoImports"
+			],
+			[
+				"package isntll",
+				"Package Control: Install Package"
+			],
+			[
+				"gosublime:user",
+				"GoSublime: User Settings"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"tmpl",
+				"Set Syntax: GoSublime: Template"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"",
+				"Build With: Go"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler(\"http://127.0.0.1:1080\")) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/huang/workspace/daily-programming/cpp"
+	],
+	"file_history":
+	[
+		"/home/huang/.config/sublime-text-3/Packages/CoolFormat/CoolFormatLib/CoolFormatConfig.cfconfig",
+		"/home/huang/workspace/golang/src/gotraining/concurrency/parallel.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/edns/SOAManager.go",
+		"/home/huang/workspace/golang/src/gotraining/concurrency/serial.go",
+		"/home/huang/workspace/daily-programming/cpp/context.c",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/edns/AManager.go",
+		"/home/huang/workspace/topweibo/engine/engine/tw_users.py",
+		"/home/huang/workspace/golang/src/gotraining/redigo/main.go",
+		"/home/huang/workspace/golang/src/gotraining/parallel.go",
+		"/home/huang/workspace/golang/src/gotraining/bounded.go",
+		"/home/huang/workspace/golang/src/6.824/src/main/viewd.go",
+		"/home/huang/workspace/golang/src/6.824/src/main/wc.go",
+		"/home/huang/workspace/golang/src/gotraining/src/scan/init.go",
+		"/home/huang/workspace/golang/src/gotraining/test.go",
+		"/home/huang/workspace/golang/src/gotraining/select.go",
+		"/home/huang/workspace/golang/src/gotraining/serial.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/edns/EDnsManager.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/dns/DNSManager.go",
+		"/home/huang/workspace/golang/src/gotraining/src/scan/dispatcher.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/edns/DIGManager.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/dns/DIGManager.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/util/ip.go",
+		"/home/huang/workspace/golang/src/gotraining/src/scan/loaddb.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/iplookup/iplookupManager.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/db/redisdb.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/iplookup/IpInfoManager.go",
+		"/home/huang/workspace/golang/src/gotraining/src/dns/cache/cacheManager.go",
+		"/home/huang/workspace/golang/src/HttpDNS_Server/models/DataModel.go",
+		"/home/huang/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+		"/home/huang/workspace/golang/src/gotraining/multitask.go",
+		"/home/huang/workspace/golang/src/gotraining/test_chan.go",
+		"/home/huang/workspace/golang/src/gotraining/axel_go/main.go",
+		"/home/huang/workspace/golang/src/gotraining/axel_go/demo.go",
+		"/home/huang/workspace/golang/src/gotraining/axel_go/readme",
+		"/home/huang/workspace/dygateway/luacode/dyupsc/admin/dyupstream_action.lua",
+		"/home/huang/workspace/golang/src/gotraining/axel_go/..gitignore.un~",
+		"/home/huang/workspace/golang/src/gotraining/main.go",
+		"/home/huang/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/huang/.config/sublime-text-3/Packages/GoSublime/Default (Linux).sublime-keymap",
+		"/home/huang/workspace/dygateway/luacode/ab/lib/abtesting/action/action.lua",
+		"/home/huang/workspace/dygateway/luacode/ab/diversion/diversion.lua",
+		"/home/huang/workspace/dygateway/luacode/ab/lib/abtesting/action/uidappoint.lua",
+		"/home/huang/workspace/golang/src/HttpDNS/HttpDNSModule.go",
+		"/home/huang/workspace/dygateway/luacode/ab/admin/action.lua",
+		"/home/huang/workspace/dygateway/luacode/ab/admin/action.luals",
+		"/home/huang/workspace/golang/src/HttpDNS/src/httpdns/httpdns.go",
+		"/home/huang/workspace/golang/src/gotraining/sched.go",
+		"/home/huang/workspace/golang/src/gotraining/goBlockQueue.go",
+		"/home/huang/workspace/golang/src/gotraining/src/goSingleton/singleton.go",
+		"/home/huang/workspace/golang/src/gotraining/goDesignPattern/goFactory_Simple.go",
+		"/home/huang/workspace/golang/src/gotraining/goDesignPattern/goFactory_Simple2.go",
+		"/home/huang/workspace/golang/src/gotraining/goDesignPattern/goFactory_Method.go",
+		"/home/huang/workspace/golang/src/HttpDNS/src/httpdns/query.go",
+		"/home/huang/workspace/golang/src/HttpDNS/demo.go",
+		"/home/huang/workspace/golang/src/gotraining/goDesignPattern/goFactory_Abstract.go",
+		"/home/huang/workspace/golang/src/gotraining/goDesignPattern/goPrototype.go",
+		"/home/huang/workspace/golang/src/gotraining/test_gotype.go",
+		"/home/huang/workspace/golang/src/gotraining/test_reuseport.go",
+		"/home/huang/workspace/golang/src/gotraining/test_reuseport",
+		"/home/huang/workspace/golang/src/gotraining/out~",
+		"/home/huang/workspace/golang/src/gotraining/out",
+		"/home/huang/workspace/golang/src/gotraining/slice_to_struct.go",
+		"/home/huang/workspace/golang/src/HttpDNS/src/utils/utils.go",
+		"/home/huang/workspace/golang/src/gotraining/goSingleton/singleton.go",
+		"/home/huang/workspace/golang/src/gotraining/goSingleton/main.go",
+		"/home/huang/workspace/golang/src/gotraining/goSingleton/untitled",
+		"/home/huang/workspace/golang/src/gotraining/axel_go/gofile.go",
+		"/home/huang/workspace/golang/src/gotraining/axel_go/0",
+		"/home/huang/workspace/golang/src/gotraining/axel_go/img.jpg",
+		"/home/huang/workspace/githubio/content/post/effective tips in daily learning.md",
+		"/home/huang/workspace/githubio/content/post/.DNS with golang.md.un~",
+		"/home/huang/workspace/golang/src/gotraining/test_task.go",
+		"/home/huang/workspace/golang/src/gotraining/test_coroutine.go",
+		"/home/huang/workspace/golang/src/gotraining/test_goroutine.go",
+		"/home/huang/.config/sublime-text-3/Packages/User/SublimeTmpl.sublime-settings",
+		"/home/huang/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/huang/workspace/githubio/content/post/resume.md",
+		"/home/huang/workspace/golang/src/gotraining/test_slice.go",
+		"/home/huang/workspace/golang/src/demohttpdns/ednsTest1.go",
+		"/home/huang/Desktop/dns抓包过程.txt",
+		"/home/huang/workspace/golang/src/HttpDNS/src/MyError/errors.go",
+		"/home/huang/workspace/githubio/public/post/re",
+		"/home/huang/workspace/ABTestingGateway/README.md",
+		"/home/huang/workspace/golang/src/gotraining/test_map.go",
+		"/home/huang/workspace/golang/src/httpDispatcher/src/MyError/errors.go",
+		"/home/huang/workspace/golang/src/httpDispatcher/src/query/wrapper.go",
+		"/home/huang/workspace/golang/src/HttpDNS/src/config/httpdispacher.toml",
+		"/home/huang/workspace/golang/src/httpDispatcher/src/query/query_dns.go",
+		"/home/huang/workspace/golang/src/demohttpdns/dnsclient.go",
+		"/home/huang/workspace/golang/src/HttpDNS/src/config/config_test.go~",
+		"/home/huang/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/huang/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/huang/workspace/golang/src/echo/server.go",
+		"/home/huang/workspace/golang/src/httpDispatcher/src/main.go",
+		"/home/huang/workspace/golang/src/HttpDNS/test.lua",
+		"/home/huang/workspace/golang/src/gotraining/test_reflect.go",
+		"/home/huang/workspace/golang/src/echo/echo_server.go",
+		"/home/huang/.config/sublime-text-3/Packages/SublimeTmpl/Default (Linux).sublime-keymap",
+		"/home/huang/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+		"/home/huang/.config/sublime-text-3/Packages/SublimeTmpl/SublimeTmpl.sublime-settings",
+		"/home/huang/.config/sublime-text-3/Packages/SublimeTmpl/Main.sublime-menu",
+		"/home/huang/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/huang/workspace/golang/src/HttpDNS/test_coroutine.go",
+		"/home/huang/workspace/golang/src/HttpDNS/test_goroutine_sync.go",
+		"/home/huang/Desktop/httpdns解析结果分析.txt",
+		"/home/huang/Desktop/httpdns解析过程.txt",
+		"/home/huang/workspace/golang/src/HttpDNS/test_reflect.go",
+		"/home/huang/workspace/golang/src/HttpDNS/test.go~",
+		"/home/huang/workspace/golang/src/HttpDNS/test.go",
+		"/home/huang/workspace/golang/src/HttpDNS/test",
+		"/home/huang/workspace/golang/src/HttpDNS/l",
+		"/home/huang/workspace/golang/src/HttpDNS/HttpDNS",
+		"/home/huang/workspace/golang/src/HttpDNS/HttpDNSModule.go~",
+		"/home/huang/workspace/golang/src/HttpDNS/out",
+		"/home/huang/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"i",
+			"limit",
+			"domain_ns",
+			"fqdn",
+			"min",
+			"144",
+			"myip",
+			"Println",
+			"domain",
+			"2",
+			" {",
+			"regions",
+			"world",
+			"\n\"",
+			"panic(\"uri invalid \")",
+			"fqdn",
+			".\"\n",
+			"defer this.mu.Unlock()",
+			"DEFAULT_RESOLV_FILE",
+			"cf",
+			"pizza := factory.createPizza()\n	pizza.create()",
+			"SaySomething",
+			"3000",
+			"sync",
+			"reader",
+			"TypeOf",
+			"maps",
+			"eb",
+			"67",
+			"67eb",
+			" err := httpdns.GetARecord(\"www.facebook.com\", srcIP)\n	if err != nil {\n		fmt.Println(rr)\n		fmt.Println(ok)\n	}",
+			":= httpdns.GetAFromNS(\"weibo.com\", srcIP, weiboNS)\n	// // a, edns_subnet, err := httpdns.GetAFromNS(baidu, srcIP, baiduNS)\n	// fmt.Printf(\"GetARecord %v\\n\", a)\n	// fmt.Printf(\"EDNS_SUBNET: %v\\n\", edns_subnet)\n	// fmt.Println(err)\n",
+			"	// ok, rr, err := httpdns.GetARecord(taobao, srcIP)\n	// if err != nil {\n	// 	fmt.Println(rr)\n	// 	fmt.Println(ok)\n	// }\n",
+			"string",
+			"}\n",
+			"dns.type",
+			"querya",
+			"\" ",
+			")\n",
+			"DEFAULT_RESOLV_FILE",
+			"utils.QueryLogger",
+			"utils.ServerLogger",
+			"utils.log",
+			"log",
+			"vim",
+			"SublimeTmpl",
+			"ctrl+alt+j",
+			"parseEdns0subnet",
+			" := new(dns.ClientConfig)\n	// cf.Servers = append(cf.Servers, \"114.114.114.114\")\n	// cf.Servers = append(cf.Servers, \"223.5.5.5\")\n	// cf.Port = \"53\"",
+			"QueryA",
+			"chan",
+			"chann",
+			"Ns",
+			"subdomain",
+			"Name",
+			"ClientConfigFromFile",
+			"cname",
+			"（上几步的CName）cname",
+			"（上几步的CName）",
+			"QueryCNAME",
+			"{\n",
+			"=\\",
+			"query_domain",
+			"parsea",
+			"e.error",
+			"com",
+			"parseEdns0subnet",
+			"n",
+			"parseEdns0subnet"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"utils.Log",
+			"utils.log",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "merge_k_sorted_lists.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 241.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "for_range_declaration.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lambda.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								688
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/huang/workspace/golang/src/HttpDNS":
+	{
+		"height": 261.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 88.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 88.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 88.0
+	},
+	"output.exec":
+	{
+		"height": 398.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.golang_build":
+	{
+		"height": 316.0
+	},
+	"output.sbt":
+	{
+		"height": 0.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++11/C++11.sublime-build",
+	"project": "cpp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 339.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

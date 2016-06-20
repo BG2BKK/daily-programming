@@ -5,10 +5,8 @@
 
 int main()
 {
-	unsigned int usec = 100;
-	while (1) {
-		printf("\x07");
-		usleep(usec);
-	}
-	return 0;
+	int x = 0x80000000;
+	printf("%d\n", x);
+	printf("%x\n", x);
+	printf("%p\n", x);
 }

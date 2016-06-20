@@ -6,6 +6,9 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
+// http://www.lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-list/
+
 #include <stdio.h>
 class ListNode {
 	public:

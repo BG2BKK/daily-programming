@@ -6,6 +6,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+// http://www.lintcode.com/zh-cn/problem/insertion-sort-list/
 #include <stdio.h>
 class ListNode {
 	public:
