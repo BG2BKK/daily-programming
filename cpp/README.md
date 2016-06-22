@@ -70,4 +70,11 @@ cpp daily tips
 	* c版的变量自动清除的宏，一种实现思路
 	* [参考链接](https://www.ibm.com/developerworks/community/blogs/karsten/entry/raii_with_c_libraries?lang=en)
 	* [参考链接2](https://github.com/psevon/exceptions-and-raii-in-c)
+
+* [最长公共子序列](longest_common_subsequence.cpp)
+	* [lintcode之最长公共子序列](http://www.lintcode.com/zh-cn/problem/longest-common-subsequence/)
+
+* [最长公共子串](longest_common_substring.cpp)
+	* [lintcode之最长公共子串](http://www.lintcode.com/zh-cn/problem/longest-common-subsequence/)
+
 [Back to TOP](#cpp daily tips)
