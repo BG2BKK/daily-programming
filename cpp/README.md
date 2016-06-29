@@ -77,4 +77,11 @@ cpp daily tips
 * [最长公共子串](longest_common_substring.cpp)
 	* [lintcode之最长公共子串](http://www.lintcode.com/zh-cn/problem/longest-common-subsequence/)
 
+* [C和指针 练习](understanding_and_using_c_pointers/list.c)
+	* [list.c](understanding_and_using_c_pointers/list.c)
+	* [queue.c](understanding_and_using_c_pointers/queue.c)
+	* [stack.c](understanding_and_using_c_pointers/stack.c)
+	* 将链表和节点分开，链表存储链表头和链表尾，可以在O(1)时间实现插入和删除，在O(N)时间实现查找；这种方式可以大大提高扩展性，很容易的实现了队列和栈
+	* 下一步进行CPP化，并提供线程安全版本
+
 [Back to TOP](#cpp daily tips)

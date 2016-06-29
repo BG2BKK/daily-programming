@@ -22,4 +22,7 @@ int main(){
 
 	int*a = new int[10];int n = sizeof(a);
 	printf("%d\n", n);
+
+	struct pollfd pfd[0];
+	printf("%d\n", sizeof(pfd));
 }
