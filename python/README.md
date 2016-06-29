@@ -10,4 +10,5 @@ python daily tips
 	* [参考链接1](http://www.cnblogs.com/hymenz/p/3504939.html)
 	* [参考链接2](https://www.zhihu.com/question/20511233)
 	* [参考链接3](https://segmentfault.com/a/1190000001813992)
-
+* [draw.py](draw.py)
+	* python采用matplotlib画直线
