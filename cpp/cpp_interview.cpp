@@ -22,4 +22,9 @@ int main(){
 
 	stack<int> s;
 
+ std::string test = "abc\0\0abc";
+ std::cout<<test<<std::endl;
+   
+
 }
+
