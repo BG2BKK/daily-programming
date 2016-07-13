@@ -12,7 +12,7 @@ void print_circle(vector<vector<int>> &array, int x, int y) {
 	if(e_y < s_y)
 		return;
 	for(int i = s_y; i <= e_y; i++) {
-		print("%d\t", array[s_x][i]);
+		printf("%d\t", array[s_x][i]);
 	}
 
 	s_x = x;
