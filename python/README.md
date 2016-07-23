@@ -28,3 +28,9 @@ python daily tips
 
 * [pybultin.py](pybuiltin.yp)
 	* python的内置函数学习
+
+* [python高级编程技巧](http://blog.jobbole.com/61171/)
+	* [装饰器](pydecorator.py)
+	* [context库](pycontextlib.py)
+	* [描述器](pydescriptor.py)
+	* [元类](pymetaclass.py)

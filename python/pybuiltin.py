@@ -22,8 +22,10 @@ x2, y2 = zip(*zipped)       # unzip
 print x2, type(x2)
 print y2, type(y2)
 
+print [i for i in x if i % 2 == 0 ]
 
-# iter for reading file
-with open('pybuiltin.py') as fp:
-    for line in iter(fp.readline, ''):
-        print line
+def readfile():
+    # iter for reading file
+    with open('pybuiltin.py') as fp:
+        for line in iter(fp.readline, ''):
+            print line
