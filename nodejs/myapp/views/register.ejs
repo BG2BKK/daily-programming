@@ -1,0 +1,31 @@
+<% include header.ejs %>
+<div class="container">
+    <form class="form-horizontal col-lg-6 col-lg-offset-4" method="post">
+        <fieldset>
+            <legend>用户注册</legend>
+            <div class="form-group">
+                <label class="control-label col-lg-2" for="username">用户名</label>
+                <div class="col-lg-10">
+                    <input type="text" class="input-sm" id="username" name="username">    
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-lg-2" for="password">密码</label>
+                <div class="col-lg-10">
+                    <input type="password" class="input-sm" id="password" name="password">    
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-lg-2" for="repassword">确认密码</label>
+                <div class="col-lg-10">
+                    <input type="password" class="input-sm" id="repassword" name="repassword">    
+                </div>
+            </div>
+            <div class="col-lg-offset-1">
+                <a href="/users/login" class="btn btn-info">已有账户？登录</a>    
+                <button type="submit" class="btn btn-primary">注册</button>    
+            </div>
+        </fieldset>
+    </form>
+</div>
+<% include footer.ejs %>
