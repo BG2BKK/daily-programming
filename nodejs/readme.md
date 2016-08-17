@@ -3,6 +3,9 @@ nodejs的学习之路
 ---------------------
 
 
+* [redis_load.js](test/redis_load.js)
+	* 刚学会使用node，感觉node的异步功能很强大，正好有一个压力测试redis的需求，因此通过一个node异步发出1000个redis大查询
+	* redis的返回比较慢，但是按部就班的回复，没有查询失败的请求，基本达成目标
 * [promise.js](test/promise.js)
 	* nodejs的promise样例
 	* [教程](http://liubin.org/promises-book/#chapter2-how-to-write-promise)
