@@ -84,4 +84,7 @@ cpp daily tips
 	* 将链表和节点分开，链表存储链表头和链表尾，可以在O(1)时间实现插入和删除，在O(N)时间实现查找；这种方式可以大大提高扩展性，很容易的实现了队列和栈
 	* 下一步进行CPP化，并提供线程安全版本
 
+* [linux定时器 setitimer](setitimer.c)
+	* setitimer在定时时间结束后发出信号
+
 [Back to TOP](#cpp daily tips)
