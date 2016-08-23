@@ -87,4 +87,7 @@ cpp daily tips
 * [linux定时器 setitimer](setitimer.c)
 	* setitimer在定时时间结束后发出信号
 
+* [string.cpp](string.cpp)
+	* 学习cpp的构造函数、拷贝构造函数、赋值构造函数和析构函数
+
 [Back to TOP](#cpp daily tips)
