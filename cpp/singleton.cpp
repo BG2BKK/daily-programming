@@ -5,7 +5,8 @@
 
 #include <iostream>
 
-#define Eager_Singleton
+// #define Eager_Singleton
+#define Meyers_Singleton
 
 #ifdef Lazy_Singleton
 class Singleton {
@@ -44,7 +45,21 @@ class Singleton {
 };
 #endif
 
-int main() {
-	Singleton t = Singleton::Instance();
+#ifdef Meyers_Singleton
+class Singleton {
+	public:
+		static Singleton& Instance() {
+			static Singleton instance;
+			return instance;
+		}
 
+	private:
+		Singleton();
+		~Singleton();
+		Singleton(const Singleton &);
+		Singleton & operator=(const Singleton &);
+};
+#endif
+
+int main() {
 }
