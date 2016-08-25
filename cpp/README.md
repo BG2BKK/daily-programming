@@ -90,4 +90,10 @@ cpp daily tips
 * [string.cpp](string.cpp)
 	* 学习cpp的构造函数、拷贝构造函数、赋值构造函数和析构函数
 
+* [singleton.cpp](singleton.cpp)
+	* [cpp单例模式](http://www.zkt.name/dan-li-mo-shi-singleton-ji-c-shi-xian/)
+
+* [AVL树统计词频](AVL/AVL.cpp)
+	* [AVL树统计词频](http://www.cnblogs.com/daoluanxiaozi/archive/2012/04/26/2471256.html)
+
 [Back to TOP](#cpp daily tips)
