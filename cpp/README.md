@@ -96,4 +96,10 @@ cpp daily tips
 * [AVL树统计词频](AVL/AVL.cpp)
 	* [AVL树统计词频](http://www.cnblogs.com/daoluanxiaozi/archive/2012/04/26/2471256.html)
 
+* [cpp的虚函数继承](virtual_inherence.cpp)
+	* [c++对象模型和内存布局(Windows)](http://www.cnblogs.com/QG-whz/p/4909359.html?f=tt&hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+	* gcc下测试，gcc编译结果中虚函数的布局
+* [cpp的内存布局]
+	* [c++对象模型和内存布局(Windows)](http://www.cnblogs.com/QG-whz/p/4909359.html?f=tt&hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
 [Back to TOP](#cpp daily tips)
