@@ -1,5 +1,5 @@
 CFLAGS= -g -O0 
-LIBS = -lpthread -lm
+LIBS = -lpthread -lm -lrt
 C_SRC = $(wildcard *.c)
 C_OBJ = $(patsubst %c, %o, $(C_SRC))
 CPP_SRC = $(wildcard *.cpp)

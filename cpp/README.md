@@ -104,6 +104,9 @@ cpp daily tips
 
 * [sigprocmask.c](sigprocmask.c)
 	* sigprocmask函数调用
-函数调用
+
+* [futex.c](futex.c)
+	* [csdn](http://blog.csdn.net/nellson/article/details/5400360#)
+	* man futex
 
 [Back to TOP](#cpp daily tips)
