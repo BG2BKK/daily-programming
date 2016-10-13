@@ -102,4 +102,8 @@ cpp daily tips
 * [cpp的内存布局]
 	* [c++对象模型和内存布局(Windows)](http://www.cnblogs.com/QG-whz/p/4909359.html?f=tt&hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
+* [sigprocmask.c](sigprocmask.c)
+	* sigprocmask函数调用
+函数调用
+
 [Back to TOP](#cpp daily tips)
