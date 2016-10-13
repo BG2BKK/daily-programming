@@ -58,9 +58,10 @@ main(void)
 	ftruncate(fd, size);
 	ptr = (int *)mmap(NULL, size, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);	
 
+
 	pid = fork();
 	if (pid == 0) { // child process
-        sleep(5);
+        sleep(3);
 		printf("Child %d: start\n", getpid());
 		
 		fd = shm_open(shmfile, flags, FILE_MODE);

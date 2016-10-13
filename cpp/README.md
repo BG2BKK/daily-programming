@@ -108,5 +108,6 @@ cpp daily tips
 * [futex.c](futex.c)
 	* [csdn](http://blog.csdn.net/nellson/article/details/5400360#)
 	* man futex
+		* [futex_demo](futex_demo.c)
 
 [Back to TOP](#cpp daily tips)
