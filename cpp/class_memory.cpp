@@ -10,11 +10,13 @@ class Base
 		static void countI(){};
 		virtual void print(void){ cout << "Base::print()"; }
 		virtual ~Base(){}
+		static int i;
 
 	private:
 		int baseI;
 		static int baseS;
 };
+
 
 void testBase( Base&p)
 {

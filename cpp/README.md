@@ -102,12 +102,18 @@ cpp daily tips
 * [cpp的内存布局]
 	* [c++对象模型和内存布局(Windows)](http://www.cnblogs.com/QG-whz/p/4909359.html?f=tt&hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
-* [sigprocmask.c](sigprocmask.c)
+* [sigprocmask_demo.c](sigprocmask_demo.c)
 	* sigprocmask函数调用
 
 * [futex.c](futex.c)
 	* [csdn](http://blog.csdn.net/nellson/article/details/5400360#)
 	* man futex
 		* [futex_demo](futex_demo.c)
+	
+* [i++](i++.cpp)
+	* i++返回的是另一个整型变量
+	* ++i返回的是i的引用
+	* [关键点在于cpp中对这个符号的重载](https://segmentfault.com/a/1190000003745529)
+	* 其实也取决于编译器的优化
 
 [Back to TOP](#cpp daily tips)

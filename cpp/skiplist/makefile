@@ -11,11 +11,11 @@ TARGET = main
 
 all: $(TARGET)
 
-%o: %cpp
-    $(CC) $(CFLAGS) -o $@ $<
+.o.cpp:
+	$(CC) $(CFLAGS) -o $@ $<
 
 $(TARGET): $(OBJS)
-    $(LD) $(LDFLAGS) -o $@ $^
+	$(LD) $(LDFLAGS) -o $@ $^
 
 clean:
 	rm -f *.o $(TARGET)
