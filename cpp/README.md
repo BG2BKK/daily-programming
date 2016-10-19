@@ -116,4 +116,8 @@ cpp daily tips
 	* [关键点在于cpp中对这个符号的重载](https://segmentfault.com/a/1190000003745529)
 	* 其实也取决于编译器的优化
 
+* [为什么基类的析构函数一般设置为虚函数](virtual_destruct_func.cpp)
+	* [参考链接](http://blog.csdn.net/starlee/article/details/619827)
+	* 在多态使用时，如果new一个子类对象，而用父类类型指针指向它来使用，delete父类类型指针的时候，只释放父类类型的资源，子类的虚构函数并不存在，导致资源不能及时释放。因此将父类的析构函数设置为虚函数，释放派生类对象时，链式调用析构函数，派生类析构函数先调用，父类的析构函数后调用
+
 [Back to TOP](#cpp daily tips)
