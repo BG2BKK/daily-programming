@@ -19,7 +19,7 @@ class Base
 };
 
 
-void testBase( Base&p)
+void testBase( Base &p)
 {
     cout << "对象的内存起始地址：" << &p << endl;
 
@@ -33,6 +33,11 @@ void testBase( Base&p)
     //通过地址调用虚函数print（）
     typedef void(*Fun)(void);
     Fun IsPrint = *((Fun *)*(int *)(&p) + 0);
+	cout << "========================" << endl;
+	cout << (int *)(&p) << endl;
+	Fun pp = *((Fun *)*(int *)(&p) + 1); 
+	pp();
+	cout << endl <<"========================" << endl;
     cout << endl;
     cout<<"调用了虚函数: ";
     IsPrint(); //若地址正确，则调用了Base类的虚函数print（）
