@@ -14,6 +14,7 @@
 char	*id = "$Id$\n";
 
 #include "bench.h"
+#include "ucontext.h"
 
 
 #ifdef STATIC
@@ -24,13 +25,19 @@ char	*id = "$Id$\n";
 #define STATIC_PREFIX ""
 #endif
 
+#define STACK_SIZE 4096 * 16
+
 void do_shell(iter_t iterations, void* cookie);
 void do_forkexec(iter_t iterations,void* cookie);
 void do_fork(iter_t iterations, void* cookie);
 void do_procedure(iter_t iterations, void* cookie);
+void do_coroutine(iter_t iterations, void* cookie);
 
 pid_t child_pid;
 
+static ucontext_t uctx_main, uctx_fsm;
+
+static char fsm_stack[STACK_SIZE];
 
 void
 cleanup(iter_t iterations, void* cookie)
@@ -51,7 +58,7 @@ main(int ac, char **av)
 	int warmup = 0;
 	int repetitions = TRIES;
 	int c;
-	char* usage = "[-P <parallelism>] [-W <warmup>] [-N <repetitions>] procedure|fork|exec|shell\n";
+	char* usage = "[-P <parallelism>] [-W <warmup>] [-N <repetitions>] procedure|fork|exec|shell|coroutine\n";
 
 	while (( c = getopt(ac, av, "P:W:N:")) != EOF) {
 		switch(c) {
@@ -91,6 +98,10 @@ main(int ac, char **av)
 		benchmp(NULL, do_shell, cleanup, 0, parallel,
 			warmup, repetitions, NULL);
 		micro(STATIC_PREFIX "Process fork+/bin/sh -c", get_n());
+	} else if (!strcmp("coroutine", av[optind])) {
+		benchmp(NULL, do_coroutine, cleanup, 0, parallel,
+			warmup, repetitions, NULL);
+		micro(STATIC_PREFIX "Process coroutine -c", get_n());
 	} else {
 		lmbench_usage(ac, av, usage);
 	}
@@ -178,5 +189,23 @@ do_procedure(iter_t iterations, void* cookie)
 	handle_scheduler(benchmp_childid(), 0, 1);
 	while (iterations-- > 0) {
 		use_int(r);
+	}
+}
+
+void fsm() {
+	swapcontext(&uctx_fsm, &uctx_main);
+}
+
+void 
+do_coroutine(iter_t iterations, void* cookie)
+{
+	int r = *(int *) cookie;
+	handle_scheduler(benchmp_childid(), 0, 1);
+	while (iterations-- > 0) {
+		getcontext(&uctx_fsm);
+		uctx_fsm.uc_stack.ss_sp = fsm_stack;
+		uctx_fsm.uc_stack.ss_size = STACK_SIZE;
+		uctx_fsm.uc_link = &uctx_main;
+		makecontext(&uctx_fsm, (void (*)(void))fsm, 0);
 	}
 }
