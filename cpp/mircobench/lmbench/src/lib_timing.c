@@ -657,7 +657,6 @@ benchmp_child(benchmp_f initialize,
 
 	while (1) {
 		(*benchmark)(benchmp_interval(&_benchmp_child_state), cookie);
-                printf("reader end\n");
 	}
 }
 
