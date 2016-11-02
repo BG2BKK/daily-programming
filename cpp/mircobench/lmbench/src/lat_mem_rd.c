@@ -84,6 +84,7 @@ main(int ac, char **av)
 	return(0);
 }
 
+//#define	ONE	{ printf("%p\t%p\t\t", p, (char **)*p); p = (char **)*p; printf("%p\t%p\t\n", p, (char **)*p);}
 #define	ONE	p = (char **)*p;
 #define	FIVE	ONE ONE ONE ONE ONE
 #define	TEN	FIVE FIVE
@@ -148,6 +149,7 @@ loads(size_t len, size_t range, size_t stride,
 	save_minimum();
 	result = (1000. * (double)gettime()) / (double)(count * get_n());
 	fprintf(stderr, "%.5f %.3f\n", range / (1024. * 1024.), result);
+	printf("%.5f %.3f\n", range / (1024. * 1024.), result);
 
 }
 
