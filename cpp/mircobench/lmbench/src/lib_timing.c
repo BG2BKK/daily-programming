@@ -17,7 +17,7 @@
 #include "bench.h"
 
 /* #define _DEBUG */
-#define _DEBUG 
+// #define _DEBUG 
 
 #define	nz(x)	((x) == 0 ? 1 : (x))
 
@@ -1705,6 +1705,7 @@ permutation(int max, int scale)
 	size_t	i, v;
 	static size_t r = 0;
 	size_t*	result = (size_t*)malloc(max * sizeof(size_t));
+	printf("max max max %d\n", max * sizeof(size_t));
 
 	if (result == NULL) return NULL;
 
