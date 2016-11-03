@@ -10,11 +10,11 @@ char *prepare(unsigned long len, int stride) {
 	if(!buf)
 		return NULL;
 	for(i = stride; i < len; i += stride) {
-		*(char **)&(buf[i-stride]) = (char *)&(buf[i]);
+		*(long **)&(buf[i-stride]) = (long *)&(buf[i]);
 	}
 	printf("%p\t%p\n", (char *)&buf[i-stride], (char *)&buf[0]);
-	*(char **)&(buf[i-stride]) = (char *)&(buf[0]);
-	return buf;
+	*(long **)&(buf[i-stride]) = (long *)&(buf[0]);
+	return (long *)buf;
 }
 
 char cooldown(char *buf) {
@@ -22,7 +22,8 @@ char cooldown(char *buf) {
 		free(buf);
 }
 
-#define ONE p = (char **)*p;
+//#define	ONE	{ printf("%p\t%p\t\t", p, (char **)*p); p = (char **)*p; printf("%p\t%p\t\n", p, (char **)*p);}
+#define ONE p = (long **)*p;
 #define FIVE ONE ONE ONE ONE ONE 
 #define TEN FIVE FIVE 
 #define FIFTY TEN TEN TEN TEN TEN 
@@ -30,11 +31,11 @@ char cooldown(char *buf) {
 
 int main() {
 	struct timespec st, ed;
-	int buflen = 32768*1024;
-	int stride = 32;
+	int buflen = 32*1024*32;
+	int stride = 1024;
 	int loop = 1000000;
 	int iterations = loop;
-	char *buf = prepare(buflen, stride);
+	long *buf = prepare(buflen, stride);
 	if(!buf) {
 		printf("prepare error\n");
 		exit(1);
@@ -42,7 +43,7 @@ int main() {
 
 	int count = buflen / (stride * 100) + 1;
 	
-	char **p = &buf;
+	long **p = (long **)&buf;
 	clock_gettime(CLOCK_REALTIME, &st);
 	while(iterations--)
 		for(int i = 0; i < count; i++) {
