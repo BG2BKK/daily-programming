@@ -117,11 +117,9 @@ main:
 	movq	%fs:40, %rax
 	movq	%rax, -8(%rbp)
 	xorl	%eax, %eax
-	movl	$32768, -96(%rbp)
+	movl	$1048576, -96(%rbp)
 	movl	$32, -92(%rbp)
-	movl	$1000000, -88(%rbp)
-	movl	-88(%rbp), %eax
-	movl	%eax, -104(%rbp)
+	movl	$10000, -88(%rbp)
 	movl	-96(%rbp), %eax
 	cltq
 	movl	-92(%rbp), %edx
@@ -143,9 +141,12 @@ main:
 	cltd
 	idivl	%ecx
 	addl	$1, %eax
+	imull	$100, %eax, %eax
 	movl	%eax, -84(%rbp)
 	leaq	-80(%rbp), %rax
 	movq	%rax, -72(%rbp)
+	movl	-88(%rbp), %eax
+	movl	%eax, -104(%rbp)
 	leaq	-48(%rbp), %rax
 	movq	%rax, %rsi
 	movl	$0, %edi

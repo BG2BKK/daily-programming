@@ -38,6 +38,7 @@ pid_t child_pid;
 static ucontext_t uctx_main, uctx_fsm;
 
 static char fsm_stack[STACK_SIZE];
+static char main_stack[STACK_SIZE];
 
 void
 cleanup(iter_t iterations, void* cookie)
@@ -101,7 +102,7 @@ main(int ac, char **av)
 	} else if (!strcmp("coroutine", av[optind])) {
 		benchmp(NULL, do_coroutine, cleanup, 0, parallel,
 			warmup, repetitions, NULL);
-		micro(STATIC_PREFIX "Process coroutine -c", get_n());
+		micro(STATIC_PREFIX "Process coroutine: ", get_n());
 	} else {
 		lmbench_usage(ac, av, usage);
 	}
