@@ -1,20 +1,25 @@
-CFLAGS= -g -O0 
-LIBS = -lpthread -lm -lrt
-C_SRC = $(wildcard *.c)
-C_OBJ = $(patsubst %c, %o, $(C_SRC))
-CPP_SRC = $(wildcard *.cpp)
-CPP_OBJ = $(patsubst %cpp, %o, $(CPP_SRC))
-
-.PHONY:all clean
-
-all:$(CPP_OBJ) $(C_OBJ)
-
+CC = gcc
+LD = gcc
+CFLAGS = -c -O 
+LDFLAGS =
+  
+SRCS = $(wildcard *.c)  
+OBJS = $(patsubst %c, %o, $(SRCS))  
+TARGET = bench 
+  
+.PHONY: all clean
+  
+all: $(TARGET) hello.o
+  
+$(TARGET): $(OBJS)
+	$(LD) -o $@ $^  $(LDFLAGS)
+  
 .c.o:
-	gcc $(CFLAGS) -o $@ $< $(LIBS) 
-.cpp.o:
-	g++ $(CFLAGS) -std=c++11 -o $@ $< $(LIBS)
+	$(CC) $(CFLAGS) -o $@ $<  
 
+hello.o: hello.cpp
+	g++ -O -o $@ $<
 
 clean:
-	rm *~ *.o -f
-
+	rm -f *.o $(TARGET)  
+	rm *~ -f
