@@ -8,6 +8,7 @@ int main() {
 	printf("loop cost: %lfus\tclock func cost: %lfus\n", loop_latency, clock_latency);
 
 //	bench_operating_system_entry();
-	bench_creating_process();
+//	bench_creating_process();
+	bench_bandwidth_pipe();
 }
 

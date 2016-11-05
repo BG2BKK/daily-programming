@@ -29,6 +29,7 @@ double get_loop_elapse();
 
 void bench_operating_system_entry();
 void bench_creating_process();
+void bench_bandwidth_pipe();
 
 #endif
 
